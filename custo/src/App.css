@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+.bg-light {
+  background-color: none !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-primary {
+  background-color: #FF8C5F !important;
+  border: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-outline-primary {
+  color: #ffffff;
+  border: 2px solid #ffffff !important;
+  border-radius: 10px;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn-outline-primary:hover{
+  background-color: #ffffff;
+  color: #00098A;
+}
+.hero {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
+  color: #00098A !important;
+  background-color: #FFD43C;
 }
-
-.App-link {
-  color: #61dafb;
+b {
+  color: #ffffff !important;
 }
+h2 {
+  font-size: 52px !important;
+}
+h3 {
+  font-size: 36px !important;
+  color: #00098A;
+  font-weight: bold;
+}
+h4{
+  font-size: 24px;
+  font-weight: bold;
+}
+.benefits {
+  color: #000000;
+  font-size: 42px !important;
+  font-weight: bold;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.small {
+  color: #333CC1;
+  font-size: 1rem;
+}
+.rect {
+  width: 19.525rem;
+  height: 22.6875rem;
+  background-color: #ffffff !important;
+}
+.trust {
+  background-color: #F3F3F3;
+}
+.lives {
+  font-size: 42px !important;
+  font-weight: bold;
+}
+.impact {
+  background-color: #333CC1;
+  color: #ffffff;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
