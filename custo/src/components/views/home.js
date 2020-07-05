@@ -11,7 +11,7 @@ import logo2 from '../img/logo2.png';
 export default class Home extends Component {
     render(){
         return(
-        <div className="conatiner text-center">
+        <div className="text-center">
             <div className="row hero ">
                 <div className="col-sm-12 ">
                     <h2>Keep track of your <b>debtors</b></h2>

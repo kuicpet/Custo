@@ -99,3 +99,20 @@ h4{
   align-items: center;
   justify-content: center;
 }
+/*About Page*/
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #000000;
+}
+.company {
+  background-color: #F3F3F3;
+  width: 19.525rem;
+  height: 22.6875rem;
+}
+.backImg {
+ width: 100%;
+}
