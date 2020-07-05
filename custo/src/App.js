@@ -1,6 +1,6 @@
 import React,{ Component } from 'react';
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
+
 
 import './App.css';
 
@@ -9,6 +9,7 @@ import Home from './components/views/home';
 import About from './components/views/about';
 import Faq from './components/views/faq';
 import Contact from './components/views/contact';
+import Footer from './components/views/footer';
 
 
 
@@ -26,7 +27,7 @@ export default class App extends Component {
               <Route path="/contact" component={ Contact }/>
             </Switch>
           </div>
-           
+        <Footer />  
         
       </Router>
     );

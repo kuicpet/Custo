@@ -15,6 +15,15 @@
   background-color: #ffffff;
   color: #00098A;
 }
+.btn-outline-secondary {
+  border: 2px solid #00098A;
+  border-radius: 10px;
+  color: #00098A;
+}
+.btn-outline-secondary:hover {
+  background-color: #ffffff !important;
+  color: #00098A;
+}
 .hero {
   display: flex;
   flex-direction: column;
@@ -68,6 +77,25 @@ h4{
 .test {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.download {
+  color: #00098A;
+}
+.store {
+  color: #00098A;
+  font-weight: bold;
+}
+.footer {
+  background-color: #1F1558;
+  color: #ffffff;
+}
+.nav-link {
+  color: #ffffff;
+}
+.nav {
+  display: flex;
   align-items: center;
   justify-content: center;
 }

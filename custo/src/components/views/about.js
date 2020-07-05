@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Row from 'react-bootstrap/Row';
+
 
 
 export default class About extends Component {

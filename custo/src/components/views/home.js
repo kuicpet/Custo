@@ -4,6 +4,8 @@ import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
 import img3 from '../img/img3.png';
 import womanImg from '../img/womanImg.png';
+import logo1 from '../img/logo1.png';
+import logo2 from '../img/logo2.png';
 
 
 export default class Home extends Component {
@@ -62,13 +64,13 @@ export default class Home extends Component {
                     <img src={ womanImg } alt="" className="img-fluid" />
                 </div>
             </div>
-            <div className="row download">
+            <div className="row download py-5">
                 <div className="col-sm-12">
-                    <h2>Download the app <br/>and get started</h2>
-                    <div className="row">
+                    <h5 className="lives">Download the app <br/>and get started</h5>
+                    <div className="row py-3">
                         <div className="col-sm-12">
-                        <button className="btn btn-outline-secondary m-3  px-5 py-2">Get it on Play Store</button>
-                        <button className="btn btn-outline-secondary m-3 px-5 py-2">Get it on Apple Store</button>
+                        <button className="btn btn-outline-secondary m-2  px-4 py-2"><img src={ logo1 } className="img-fluid mx-3" alt="" />Get it on <span className="store">Play Store</span></button>
+                        <button className="btn btn-outline-secondary m-2 px-3 py-2"><img src={ logo2 } className="img-fluid mx-3"  alt="" />Download on the <span className="store">Apple Store</span></button>
                         </div>
                        
                     </div>
