@@ -38,9 +38,9 @@ export default class About extends Component {
             </div>
             <div className="row">
                 <div className="col-sm-12 py-5">
-                    <img className="img-fluid" src={ groupImg }/>
+                    <img className="img-fluid" src={ groupImg } alt="" />
                 </div>
-                <img className="backImg img-fluid" src={ backImg} /> 
+                <img className="backImg img-fluid" src={ backImg} alt="" /> 
             </div>
         </div>
         )

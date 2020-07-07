@@ -116,3 +116,43 @@ h4{
 .backImg {
  width: 100%;
 }
+/*FAQ Page*/
+.fa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #F3F3F3 !important;
+  background: url("../src/components/img/Group\ 1401.png") no-repeat,url("../src/components/img/Group\ 1345.png") no-repeat;
+  background-size: 10%,10%;
+  background-position: left -5% bottom -15%,right -5%;
+}
+.faq {
+  color: #00098A;
+}
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.question {
+  color: #FF8C5F;
+  border: 2px solid #FF8C5F;
+}
+.question:hover {
+  background-color: #00098A !important;
+  border: 1px solid #00098A !important;
+  color: #ffffff;
+}
+.collapsed {
+  color:#00098A !important;
+}
+.card-header {
+  background-color: #ffffff !important;
+}
+.card {
+  border: none;
+}
